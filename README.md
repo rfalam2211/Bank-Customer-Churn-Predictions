@@ -19,6 +19,7 @@ Output Project berupa model machine learning terbak setelah dilakukan tes dengan
 ## Data
 Data set berasal dari laman 
 https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset
+
 Data berisi dari 12 kolom yang terdiri dari kolom numerikal dan kolom kategorikal dengan 1 target yaitu churn, berisi 10.000 baris data tanpa adanya missing values.
 
 ## Method

@@ -7,7 +7,8 @@
 2. P1M2_riko_fadilah_inf.ipynb - Notebook yang berisi pengolahan data dengan python
 3. description.md -  Berisi deskripsi file github
 4. P1M2_riko_fadilah_inf.ipynb -  Model Inference
-5. Deployment - berisi file streamlit
+5. Deployment - Berisi file deployment pada streamlit
+6. Bank Customer Churn Prediction.csv - File Dataset
 ```
 
 ## Problem Background

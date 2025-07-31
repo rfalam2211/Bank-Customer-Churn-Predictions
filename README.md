@@ -17,7 +17,9 @@ Notebook ini berisi tentang Model Machine Learning untuk pengambilan keputusan d
 Output Project berupa model machine learning terbak setelah dilakukan tes dengan beberapa jenis model machine learning dan web deployment.
 
 ## Data
-Data set berasal dari laman https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset, data berisi dari 12 kolom yang terdiri dari kolom numerikal dan kolom kategorikal dengan 1 target yaitu churn, berisi 10.000 baris data tanpa adanya missing values.
+Data set berasal dari laman 
+https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset
+Data berisi dari 12 kolom yang terdiri dari kolom numerikal dan kolom kategorikal dengan 1 target yaitu churn, berisi 10.000 baris data tanpa adanya missing values.
 
 ## Method
 Model machine learning yang dilakukan tes adalah KNN, SVM, Decision Tree, Random Forest, dan Gradient Boosting. Setelah dilakukan analisis model terbaik yang bisa digunakan pada dataset ini adalah model Gradient Boosting. 

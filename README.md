@@ -1,6 +1,5 @@
 # Bank-Customer-Churn-Predictions
-# Judul Project
-Bank Customer Churn Prediction
+
 ## Repository Outline
 
 ```

@@ -3,12 +3,12 @@ import eda
 import prediction
 
 st.set_page_config(
-    page_title='Aplikasi Prediksi Customer Churn Bank',
+    page_title='Bank Customer Churn Prediction',
     layout='wide',
     initial_sidebar_state='expanded'
 )
 
-page = st.sidebar.selectbox('Pilih Halaman', ('EDA', 'Prediction'))
+page = st.sidebar.selectbox('Choose Page', ('EDA', 'Prediction'))
 
 if page == 'EDA':
     eda.run()

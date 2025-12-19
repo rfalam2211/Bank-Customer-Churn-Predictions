@@ -1,35 +1,84 @@
-# Bank-Customer-Churn-Predictions
+# 🏦 Bank Customer Churn Prediction
 
-## Repository Outline
+_Machine Learning Project to predict whether a customer will stop subscribing (churn) or not._
 
-```
-1. README.md - Penjelasan gambaran umum project
-2. P1M2_riko_fadilah_inf.ipynb - Notebook yang berisi pengolahan data dengan python
-3. description.md -  Berisi deskripsi file github
-4. P1M2_riko_fadilah_inf.ipynb -  Model Inference
-5. Deployment - Berisi file deployment pada streamlit
-6. Bank Customer Churn Prediction.csv - File Dataset
-```
+---
 
-## Problem Background
-Notebook ini berisi tentang Model Machine Learning untuk pengambilan keputusan dalam memprediksi kelayakan nasabah untuk mendapatkan pinjaman. Model akan memprediksi berdasarkan informasi yang diberikan saat mengisi formulir pendaftaran.
+## 📂 Repository Structure
 
-## Project Output
-Output Project berupa model machine learning terbak setelah dilakukan tes dengan beberapa jenis model machine learning dan web deployment.
+| File/Folder | Description |
+| :--- | :--- |
+| `README.md` | Documentation and general project overview |
+| `P1M2_riko_fadilah.ipynb` | Main notebook containing EDA, Preprocessing, and Modeling |
+| `P1M2_riko_fadilah_inf.ipynb` | Dedicated notebook for model inference/testing |
+| `Deployment/` | Directory containing Streamlit web application files |
+| `Bank Customer Churn Prediction.csv` | Raw Dataset used |
 
-## Data
-Data set berasal dari laman 
-https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset
+---
 
-Data berisi dari 12 kolom yang terdiri dari kolom numerikal dan kolom kategorikal dengan 1 target yaitu churn, berisi 10.000 baris data tanpa adanya missing values.
+## 🧐 Problem Background
 
-## Method
-Model machine learning yang dilakukan tes adalah KNN, SVM, Decision Tree, Random Forest, dan Gradient Boosting. Setelah dilakukan analisis model terbaik yang bisa digunakan pada dataset ini adalah model Gradient Boosting. 
+In the banking industry, customer retention is key. This notebook contains the development of a **Machine Learning Model** to help banks predict customer behavior (especially churn risk) based on their profile data. These insights are useful for more strategic business decision-making.
 
-## Stacks
-Bahasa pemrogaman yang digunakan adalah python dengan tools visual studio code. 
-Libraries yang digunakan adalah pandas, numpy matplotlib, seaborn, joblib, imblearn, scikitlearn.
+## 🎯 Project Output
 
+The deliverables of this project include:
+1.  **Machine Learning Model** that has been trained and evaluated for performance.
+2.  **Web Deployment** using Streamlit that allows users to input new customer data and get predictions in *real-time*.
 
-## Deployment
-https://huggingface.co/spaces/rfalam/Milestones2
+## 📊 Dataset Information
+
+The data used comes from Kaggle:
+👉 [Bank Customer Churn Dataset](https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset)
+
+*   **Total Data**: 10,000 rows.
+*   **Features**: 12 Columns (including demographic, financial, and membership status data).
+*   **Target**: `Churn` (Prediction of whether the customer leaves or not).
+*   **Data Quality**: Clean (no missing values).
+
+## 🛠️ Methodology
+
+We experimented with various classification algorithms, including:
+*   K-Nearest Neighbors (KNN)
+*   Support Vector Machine (SVM)
+*   Decision Tree
+*   Random Forest
+*   **Gradient Boosting**
+
+🏆 **Result**: After evaluation and *hyperparameter tuning*, **Gradient Boosting** was selected as the best model for this dataset.
+
+## 💻 Tech Stack
+
+*   **Programming Language**: Python 🐍
+*   **IDE**: Visual Studio Code / Jupyter
+*   **Key Libraries**:
+    *   `pandas`, `numpy`: Data processing
+    *   `matplotlib`, `seaborn`: Data visualization
+    *   `scikit-learn`, `imblearn`: Modeling & Preprocessing
+    *   `joblib`: Model persistence
+    *   `streamlit`: Web dashboard creation
+
+## 🚀 Deployment Link
+
+The application can be accessed online via the following link:
+🌍 **[HuggingFace Spaces - Bank Customer Churn App](https://huggingface.co/spaces/rfalam/Bank_Customer_Churn_Prediction)**
+
+---
+
+## ⚙️ How to Run (Local)
+
+If you want to run this project on your local machine:
+
+1.  **Install Required Libraries**
+    Ensure Python is installed, then run:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2.  **Run Streamlit Application**
+    ```bash
+    streamlit run Deployment/streamlit_app.py
+    ```
+
+---
+*Created by Riko Fadilah Alam*
